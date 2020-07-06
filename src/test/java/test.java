@@ -66,8 +66,8 @@ public class test {
     @Test
     public void addUser() {
         User user = new User();
-        user.setName("大佬的");
-        user.setPassword("199107");
+        user.setName("大佬的1");
+        user.setPassword("1991072");
         int a=0;
         List<Integer> integers = userService.queryAllID();
         for (Integer integer : integers) {
